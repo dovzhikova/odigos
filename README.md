@@ -8,11 +8,13 @@
     <a href="https://godoc.org/github.com/odigos-io/odigos/cli" target="_blank">
         <img src="https://godoc.org/github.com/odigos-io/odigos/cli?status.svg" alt="GoDoc" style="border: 1px solid #f39c12; border-radius: 4px; padding: 5px;">
     </a>
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/odigos-io/odigos" style="border: 1px solid #f39c12; border-radius: 4px; padding: 5px;">
 </p>
 
 <p align="center">
 <img src="assets/logo.png" width="350" /></br>
 <h2>Generate distributed traces for any application in Kubernetes without code changes.</h2>
+If you find Odigos helpful, please ⭐ this repository to show your support!
 </p>
 
 <h2 align="center">
@@ -84,46 +86,48 @@ For more details, see our [quickstart guide](https://docs.odigos.io/intro).
 
 ### Managed Destinations
 
+
 | Destination             | Traces | Metrics | Logs |
-|-------------------------|:------:|:-------:|:----:|
-| AppDynamics             |   ✅   |   ✅    |  ✅  |
-| Axiom                   |   ✅   |         |  ✅  |
-| AWS S3                  |   ✅   |         |  ✅  |
-| Azure Blob Storage      |   ✅   |         |  ✅  |
-| Causely                 |   ✅   |         |      |
-| Chronosphere            |   ✅   |   ✅    |      |
-| Coralogix               |   ✅   |   ✅    |  ✅  |
-| Datadog                 |   ✅   |   ✅    |  ✅  |
-| Dynatrace               |   ✅   |   ✅    |  ✅  |
-| Gigapipe                |   ✅   |         |      |
-| Google Cloud Monitoring |   ✅   |   ✅    |      |
-| Google Cloud Storage    |   ✅   |         |  ✅  |
-| Grafana Cloud           |   ✅   |   ✅    |  ✅  |
-| Honeycomb               |   ✅   |   ✅    |  ✅  |
-| Last9                   |   ✅   |   ✅    |      |
-| Lightstep               |   ✅   |         |      |
-| Logz.io                 |   ✅   |   ✅    |  ✅  |
-| New Relic               |   ✅   |   ✅    |  ✅  |
-| OpsVerse                |   ✅   |   ✅    |  ✅  |
-| Sentry                  |   ✅   |         |      |
-| Splunk                  |   ✅   |         |      |
-| Sumo Logic              |   ✅   |   ✅    |  ✅  |
+| ------------------------- | :------: | :-------: | :----: |
+| AppDynamics             |   ✅   |   ✅   |  ✅  |
+| Axiom                   |   ✅   |        |  ✅  |
+| AWS S3                  |   ✅   |        |  ✅  |
+| Azure Blob Storage      |   ✅   |        |  ✅  |
+| Causely                 |   ✅   |        |      |
+| Chronosphere            |   ✅   |   ✅   |      |
+| Coralogix               |   ✅   |   ✅   |  ✅  |
+| Datadog                 |   ✅   |   ✅   |  ✅  |
+| Dynatrace               |   ✅   |   ✅   |  ✅  |
+| Gigapipe                |   ✅   |        |      |
+| Google Cloud Monitoring |   ✅   |   ✅   |      |
+| Google Cloud Storage    |   ✅   |        |  ✅  |
+| Grafana Cloud           |   ✅   |   ✅   |  ✅  |
+| Honeycomb               |   ✅   |   ✅   |  ✅  |
+| Last9                   |   ✅   |   ✅   |      |
+| Lightstep               |   ✅   |        |      |
+| Logz.io                 |   ✅   |   ✅   |  ✅  |
+| New Relic               |   ✅   |   ✅   |  ✅  |
+| OpsVerse                |   ✅   |   ✅   |  ✅  |
+| Sentry                  |   ✅   |        |      |
+| Splunk                  |   ✅   |        |      |
+| Sumo Logic              |   ✅   |   ✅   |  ✅  |
 
 ## Self-Hosted (Open Source) Destinations
 
+
 | Destination   | Traces | Metrics | Logs |
-|---------------|:------:|:-------:|:----:|
-| ClickHouse    |   ✅   |   ✅    |  ✅  |
-| Elasticsearch |   ✅   |         |  ✅  |
-| Jaeger        |   ✅   |         |      |
-| Loki          |        |         |  ✅  |
-| OTLP          |   ✅   |   ✅    |  ✅  |
-| OTLP HTTP     |   ✅   |   ✅    |  ✅  |
-| Prometheus    |        |   ✅    |      |
-| Quickwit      |   ✅   |         |      |
-| qryn          |   ✅   |   ✅    |  ✅  |
-| SigNoz        |   ✅   |   ✅    |  ✅  |
-| Tempo         |   ✅   |         |      |
+| --------------- | :------: | :-------: | :----: |
+| ClickHouse    |   ✅   |   ✅   |  ✅  |
+| Elasticsearch |   ✅   |        |  ✅  |
+| Jaeger        |   ✅   |        |      |
+| Loki          |        |        |  ✅  |
+| OTLP          |   ✅   |   ✅   |  ✅  |
+| OTLP HTTP     |   ✅   |   ✅   |  ✅  |
+| Prometheus    |        |   ✅   |      |
+| Quickwit      |   ✅   |        |      |
+| qryn          |   ✅   |   ✅   |  ✅  |
+| SigNoz        |   ✅   |   ✅   |  ✅  |
+| Tempo         |   ✅   |        |      |
 
 Can't find the destination you need? Help us by following our quick [add new destination](https://docs.odigos.io/adding-new-dest) guide and submitting a PR.
 
